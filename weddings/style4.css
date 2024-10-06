@@ -1,0 +1,514 @@
+ /* div:nth-child(1){
+text-decoration: none;
+display: flex;
+} */
+
+/* .one a{
+text-decoration: none;
+color: black;
+margin-left: 10px;
+} */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+ }
+
+ body {
+    background-color: rgb(250, 246, 241);
+}
+
+.row1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 1000px; */
+    margin-top: 30px;
+    /* margin-right: 110px; */
+    /* background-color: aqua; */
+    /* padding-left: 230px; */
+}
+.container1 .col {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+
+input[type="search"] {
+    border: 1px solid rgb(204, 204, 204);
+    /* background-color: rgb(250, 246, 241); */
+}
+
+input[type="search"]:hover {
+    border: 1px solid rgb(204, 204, 204);
+    /* background-color: rgb(250, 246, 241); */
+
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/* margin-left: 150px; */
+    /* width: 800px; */
+    gap: 50px;
+    /* height: 50px; */
+    /* background-color: aqua; */
+    flex-wrap: wrap;
+}
+#parent1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 10px;
+    /* flex-wrap: wrap; */
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+.menu a:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+/* #parent1 {
+    width: 1100px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    margin-top: 13px;
+    padding-top: 0px;
+    margin-bottom: 0;
+    margin-left:70px;
+} */
+
+#parent1 a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-size: 13px;
+}
+#parent1 a:hover {
+    color: rgb(114, 114, 114);
+}
+
+.hr1 {
+    /* width: 85%; */
+    height: 1px;
+    /* margin-left: 100px; */
+    background-color: rgb(196, 197, 197);
+    margin-top: 5px;
+}
+.hr2 {
+    /* width: 100%; */
+    /* margin-left: 100px; */
+    height: 1px;
+    background-color: rgb(196, 197, 197);
+}
+.title {
+    /* position: relative; */
+    /* width: 1000px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(157, 161, 160); */
+    /* margin-left: 60px; */
+}
+.fs-6 {
+    padding: 0 40px;
+    font-size:1px;
+}
+.title span {
+margin-left: 150px;
+}
+.img1 img{
+margin-left: 80px;
+/* margin-right: 300px; */
+}
+
+.text-img p{
+font-size: 13px;
+margin-left: 100px;
+margin-bottom: 50px;
+}
+.text-img a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.pparent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 9px;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+    width: 85%;
+}
+#image-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: rgb(255, 229, 197); */
+    width: 310px;
+    /* height: 500px; */
+    /* border: 1px solid rgb(172, 172, 172); */
+    margin-bottom: 30px;
+}
+
+#image-page a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+#image-page a:hover {
+    color: rgb(63, 63, 63);
+}
+
+#header {
+    width: 300px;
+    text-align: center;
+}
+
+/* #parent1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    background-color: aquamarine;
+} */
+
+/* #parent1 a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+} */
+
+
+
+
+
+
+
+
+.img1 {
+    background-image: url("https://cdn.appleyardflowers.com/media/wysiwyg/2024/wedding-main-2024.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background-size: cover; */
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-back {
+    /* background-color: rgba(223, 45, 45, 0.952); */
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+.header10 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.p10 {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+.p11 {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+.button100 {
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    gap: 20px;
+    flex-wrap: wrap;
+width: 500px;
+margin-top: 20px;
+}
+.button100 button {
+padding: 5px 20px;
+background-color: rgb(236, 236, 236);
+border: 1px solid rgb(163, 163, 163);
+transition: padding 0.6s;
+border-radius: 5px;
+}
+
+.button100 button:nth-child(3) {
+    padding:5px 57px;
+}
+
+.button100 button:nth-child(4) {
+    padding:5px 71px;
+}
+
+.button100 button:hover {
+/* transform: scale(1.05); */
+padding:5px 30px;
+background-color: rgb(78, 78, 78);
+color: white;
+}
+.button100 button:nth-child(3):hover {
+/* transform: scale(1.05); */
+padding:5px 66px;
+background-color: rgb(78, 78, 78);
+color: white;
+}
+.button100 button:nth-child(4):hover {
+/* transform: scale(1.05); */
+padding:5px 81px;
+background-color: rgb(78, 78, 78);
+color: white;
+}
+
+
+
+
+.parent-qqqqqq {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* background-color: blueviolet; */
+    flex-direction: row;
+    /* margin-bottom: 200px; */
+    /* margin-top: 40px; */
+    margin-left: 30px;
+}
+.qqqqqq {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    /* background-color: aqua; */
+    gap: 20px;
+}
+.qqqqq {
+    display: flex;
+    flex-direction: row;
+}
+.qqqqq li {
+list-style-type: none;
+}
+.qqqqq a {
+    text-decoration: none;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.footer {
+    margin-top: 20px;
+    width: 100%;
+height: 310px;
+background-color: rgb(224, 224, 224);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.child1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+
+.child2 {
+width: 80%;
+display: flex;
+justify-content: center;
+align-items: end;
+flex-direction: row;
+gap: 150px;
+}
+
+.child2 a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+@media(max-width="768") {
+    #parent1 {
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+    .two {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+@media (max-width: 1305px) {
+    .footer {
+/* display: flex; */
+/* flex-wrap: wrap; */
+height: 650px
+/* margin-top: 300px; */
+    }
+    .child2 {
+display: flex;
+flex-wrap: wrap;
+
+/* gap: 0; */
+    }
+}
+
+@media (max-width: 593px) {
+    .footer {
+        height: 1400px;
+    }
+}
+
+#button-10 {
+    padding: 5px 20px;
+    /* margin-top: 100px; */
+    transition: padding 1s;
+    display: inline;
+}
+#button-10:hover {
+    /* background-color: rgb(204, 164, 112); */
+    padding: 5px 80px;
+    /* border-radius: 5px; */
+    background-color: rgb(78, 78, 78);
+    color: white;
+}
+#image-page a:hover {
+text-decoration: dashed;
+}
+
+#header:hover {
+transform: scale(1.03);
+}
+
+.about a, .need a, .Flowers a {
+    font-size: 13px;
+}
+
+.button-weddings button {
+    padding: 5px;
+    transition: padding 1.2s;
+}
+
+.button-weddings button:hover {
+padding-left: 20px;
+padding-right: 20px;
+background-color: rgb(78, 78, 78);
+color: white;
+/* margin-left: 30px; */
+    /* background-color: rgb(204, 164, 112); */
+    /* transform: scalex(1.4); */
+}
+
+.section-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: aqua !important; */
+}
+
+.div-con {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid  rgb(199, 199, 199);
+    width: 1000px;
+}
+
+.div-child1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /* background-color: azure; */
+    width: 580px;
+    height: auto;
+}
+
+.div-child1 button {
+    padding: 5px;
+    transition: padding 1s;
+}
+
+.div-child1 button:hover {
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: rgb(78, 78, 78);
+    color: white;
+}
+
+.parent10 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+    /* background-color: aqua; */
+    width: 1000px;
+    height: 380px;
+    margin-bottom: 60px;
+}
+
+.child1-parent10 {
+width: 50%;
+height: 100%;
+/* background-color: rgb(189, 190, 109); */
+border: 1px solid rgb(206, 206, 206);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.child2-parent10 {
+width: 50%;
+height: 100%;
+/* background-color: rgb(142, 173, 70); */
+border: 1px solid rgb(206, 206, 206);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.child1-parent10 div, .child2-parent10 div {
+    font-size: 14px;
+}
+
+.div-child1 div {
+    font-size: 14px;
+}
+button {
+    font-size: 14px;
+}
